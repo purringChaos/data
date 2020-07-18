@@ -5,6 +5,8 @@ name: Publish
 on:
   push:
     branches: [ master ]
+    paths:
+    - 'people/**'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
